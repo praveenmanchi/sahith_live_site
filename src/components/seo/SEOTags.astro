@@ -7,16 +7,20 @@ type Props = HeadTags;
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "Sahith Manchi";
-const DEFAULT_DESCRIPTION_PAGE =
-  "Java Full Stack developer with over 8+ years of Spring MVC for Architecture, Restful Web services, PostgreSQL & Oracle DB are for Database Management, Unit Testing,Crucible.A minimal portfolio template built with Astro and Tailwindcss.";
+const DEFAULT_TITLE_PAGE = "Sahith Manchi - Java Full Stack Developer";
+const DEFAULT_DESCRIPTION_PAGE = 
+  "Namaste 🙏🏻, I'm a Java Full Stack developer with over 8+ years of experience in Spring MVC, Restful Web services, PostgreSQL & Oracle DB for Database Management, Unit Testing, Crucible. Currently working with Dell.Inc as a Java Developer. Outside of work, I enjoy mixing Pulihora with Desi aunties.";
+
 const DEFAULT_URL_SITE = SITE_URL;
+
+// Update the image URL here
+const GITHUB_IMAGE_URL = "https://raw.githubusercontent.com/praveenmanchi/sahith_live_site/main/public/opengraph-image.jpg";
 
 const openGraph = {
   title: title || og?.title || DEFAULT_TITLE_PAGE,
   type: og?.type || "website",
-  image: og?.image || "/opengraph-image.jpg",
-  alt: og?.alt || "Sahith Manchi image",
+  image: og?.image || GITHUB_IMAGE_URL, // Use GitHub image URL
+  alt: og?.alt || "Sahith Manchi - Professional Profile",
   url: DEFAULT_URL_SITE,
   description: og?.description || DEFAULT_DESCRIPTION_PAGE,
 };
@@ -26,37 +30,37 @@ const openGraph = {
   <SEO
     charset="UTF-8"
     title={title || DEFAULT_TITLE_PAGE}
-    description={description || DEFAULT_DESCRIPTION_PAGE}
+    description={DEFAULT_DESCRIPTION_PAGE}
     noindex={noindex || false}
     openGraph={{
       basic: {
         title: openGraph.title,
         type: openGraph.type,
         image: openGraph.image,
+        url: openGraph.url,
+        description: openGraph.description,
       },
       image: {
         alt: openGraph.alt,
       },
     }}
     twitter={{
+      card: "summary_large_image",
+      image: openGraph.image,
+      title: openGraph.title,
+      description: openGraph.description,
+      site: "@sahithmanchi",
       creator: "@sahithmanchi",
     }}
     extend={{
       link: [
         { rel: "icon", href: "/favicon.svg" },
+        { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lora|Open+Sans" },
         { rel: "sitemap", href: "/sitemap-index.xml" },
       ],
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "generator", content: Astro.generator },
-        {
-          name: "twitter:image",
-          content: openGraph.image,
-        },
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: openGraph.title },
-        { name: "twitter:description", content: openGraph.description },
-        { name: "twitter:site", content: "@itsstormzz_" },
+        { name: "generator", content: "Astro" },
       ],
     }}
   />
