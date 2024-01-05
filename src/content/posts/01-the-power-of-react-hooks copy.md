@@ -1,54 +1,25 @@
 ---
-title: "The Power Of React Hooks"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "the-power-of-react-hooks"
+title: "Full Stack Java Developer"
+publishedAt: 2023-08-04
+description: " Scribe Remediation Project"
 isPublish: true
 ---
 
-## Vocesque meum remis est neque Neptunus monte
+## Key Achievements:
 
-Lorem markdownum nunc _adfuit_ fecisse, `quae pectus`, quod seu mortale suo
-Minerva iussit obortas. Favilla victa; alarum signis barbara, nec _sibi dentes_
-hostes?
+- Spearheaded the migration project to transition the legacy Scribe application, previously relying on BC4J and PL/SQL, to a cutting-edge Spring Boot architecture for improved performance and maintainability.
+- Revamped the parole management module, replacing outdated PL/SQL procedures with **Java**-backed Spring Boot services, enabling real-time tracking of parolee activities and compliance.
+- Great experience working with authorization and authentication of web services using OIDC (Open ID Connect) on top of OAuth 2.0, site minder (for policy-based authentication and single sign-on), and JWT (JSON web tokens) to securely transmit information between parties as a JSON object.
+- Integrated Splunk with Jenkins and other CI/CD pipeline tools for real-time monitoring of build, test, and deployment processes, increasing visibility into the development process and improving release quality.
+- Good experience with automated **Java**-based logging frameworks like log4J, sl4J, log-common.
+- Experience in using Kibana and Splunk for a dashboard for log data and creating charts for analysis. Proficient in implementing ELK (Elasticsearch, Logstash, Kibana) for searching and server-side data processing pipeline to ingest data from multiple sources simultaneously.
+- Experience in front-end technologies like HTML5, CSS3, AJAX, Bootstrap JS, jQuery, ReactJS, web accessibility, and responsive web designs and APIs of all kinds. Used them to design and develop the presentation layer.
+- Developed various single-page applications (SPA) using ANGULAR and REACT JS and used various predefined components from NPM (Node Package Manager) and Redux library.
+- Worked with Angular JS (1.x) Controllers, Directives, Services, and filters for application functionality.
+- Used many Angular JS-1.x directives which allow developing many custom and reusable HTML for data binding and behavior of components.
+- Hands-on experience in publisher and subscriber models with queues (JMS with ActiveMQ, IBMQ). Implemented a metrics collection mechanism for the server by utilizing Apache Kafka to stream server-side events.
+- Experience in developing using RESTful Web services using JAX-RS API and Jersey framework. Developed Restful services with JAX-RS with Spring REST.
 
-## Corporibus Leucon
+## Environment:
 
-Quaeque viridis, pariter possit. Velatus Thetis, ab Buten, in et ite positis
-annis ut Troasque altaque. Ancaeus convertit conscia Phinea petis. Dum rapto
-fameque quas: hostis: et exiguo exire materiaque sit non, numinis unguibus fide.
-Populis in tinxi **nisi** rura deos quo natus in cervice spretis, vulnera
-pictae, vatibus.
-
-> Illi tenebras si vultum suae. Matrem iam: iniqua adire, tetigere meque,
-> cessant, gerebat.
-
-## Montes ignarus precor rogabam primus ridet sanguine
-
-In vir indefessus et patrios veniam. Fuit fecere nymphae putri tumebat Cyparisse
-domus, ad artus vitta herba? Et gaudet pressum aeterna animam. Miratur tamen ad
-frontem Hercule nam captivarumque medio tenet obstantia pulsisque adimit bella
-_pthiam mirantur ne_.
-
-> Lacertis et nomenque oracla exstabat: genitor nitor! Fluctus habes extinctum.
-> Hunc utero iussa ora neque quae trunca tenuit coniciunt passis viro latratu
-> nepotum, spes. Et pendet mittor si expellam retia Achivis Aesonius cuius;
-> pressit exstinctique rogum enim, percutit potenti; quid longa. Nostra animaque
-> genetrice viae, quam virus sermone in videri.
-
-## Rapit harundine vana
-
-Noctis et et carpis corpus amplexus; imagine indignanda pedum sospes; cornua
-super **et simus**. Emissi bellaque dedit, ipse suis Romanique sit regia est
-virisque verum: _parentum omen_. Simul adest quam dat inanes verterat ab quies,
-visent melliferarum vestibus dolore.
-
-Vos illo in habet, ipse est suo fuit, solidissima invecta moverent [si] pericula
-ea pelle te quatiens proditus. Requiemque nec et fruticumque destringere
-divulsaque [multae requirit primi] supposita, turbatusque lacus, quondam;
-hectora pendebat verba. Magni Euagrum arcus sequentis vidi: qui Meropisque
-adplicat relinquentur inter, si pete. Magna constitit ore rediit et parentis
-pomaria lumina seque aura.
-
-[multae requirit primi]: http://heu.io/
-[si]: http://infelixlucina.net/mutati
+**Java**, Spring Boot, Angular, HTML, Jasmine, Material UI, Spring Security, BC4J Migration, PL/SQL Migration, Offender

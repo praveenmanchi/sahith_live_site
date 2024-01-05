@@ -176,14 +176,14 @@ declare module 'astro:content' {
 		"posts": {
 "01-the-power-of-react-hooks copy.md": {
 	id: "01-the-power-of-react-hooks copy.md";
-  slug: "the-power-of-react-hooks";
+  slug: "01-the-power-of-react-hooks-copy";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "02-untitled.md": {
 	id: "02-untitled.md";
-  slug: "untitled";
+  slug: "02-untitled";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

@@ -12,19 +12,15 @@ type Presentation = {
 };
 
 const presentation: Presentation = {
-  mail: "Sahith.work@gmail.com",
+  mail: "sahithmanchi08@gmail.com",
   title: "Hi, I’m Sahith Manchi 👋",
   // profile: "/profile.webp",
   description:
-    "Namaste 🙏🏻, i'm a *Java Full Stack* developer with over * 8+ years* of Spring MVC for Architecture, Restful Web services, PostgreSQL & Oracle DB are for Database Management, Unit Testing,Crucible. I am currently working with *Dell.Inc* as *Java Developer*. Outside of work I mix Pulihor with *Desi aunties*.",
+    "Namaste 🙏🏻, i'm a *Java Full Stack Developer* with over * 5+ years* of Java, Springboot, Spring MVC, Microservices, Angular, React, Azure, AWS with various Database experiences like Oracle, PostgresSql, MongoDB Etc., I can Create, Build and Develop Full Stack Applications.",
   socials: [
     {
-      label: "X",
-      link: "https://twitter.com/sahithmanchi",
-    },
-    {
       label: "linkedin",
-      link: "https://www.linkedin.com/in/sahith-m-a1ab18165/",
+      link: "https://www.linkedin.com/in/sahithm/",
     },
     {
       label: "Github",

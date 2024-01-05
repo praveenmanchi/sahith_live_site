@@ -8,29 +8,23 @@ export type Project = {
 const projects: Project[] = [
   {
     title: "LongLyf",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
+    techs: ["Java","Springboot","ReactJs","AWS"],
     link: "https://github.com/Sahith1408/LongLyf",
   },
   {
     title: "ParkingLotManagement",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
+    techs: ["Java", "SpringMVC", "Hibernate", "PostgreSQL", "Thymeleaf"],
     link: "https://github.com/Sahith1408/ParkingLotManagement",
   },
   {
     title: "Sentimental-Analysis",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
+    techs: ["Python", "Numpy", "Pandas"],
     link: "https://github.com/Sahith1408/Sentimental-Analysis",
   },
   {
-    title: "employee_management",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
+    title: "Employee_management",
+    techs: ["Java", "JDBC"],
     link: "https://github.com/Sahith1408/ParkingLotManagement",
-  },
-  {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
   },
 ];
 
